@@ -21,7 +21,7 @@ export default function Search() {
         type="text"
         value={search}
         onChange={(e) => {
-          e.target.value;
+          setSearch(e.target.value);
         }}
         className="bg-white p-2 w-80 text-xl rounded-xl"
         placeholder="Search"
